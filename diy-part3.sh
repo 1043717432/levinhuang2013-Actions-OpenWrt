@@ -23,8 +23,9 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 #git clone -b js https://github.com/gngpp/luci-theme-design package/luci-theme-design
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/messense/aliyundrive-webdav package/aliyundrive-webdav
-#git clone https://github.com/sirpdboy/netspeedtest package/homebox
-#git clone https://github.com/destan19/OpenAppFilter package/openappfilter
+git clone https://github.com/sirpdboy/netspeedtest package/homebox
+git clone https://github.com/destan19/OpenAppFilter package/openappfilter
+git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 #rm -rf feeds/packages/net/open-app-filter
 #git clone https://github.com/linkease/nas-packages-luci package/nas-packages-luci
 #git clone https://github.com/linkease/nas-packages package/nas-packages
